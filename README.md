@@ -2,16 +2,6 @@
 
 This project demonstrates how to build and run a simple web server using Docker. The web server is built with **Node.js** and serves as a basic backend application. Docker is used to containerize the application, making it portable and easy to deploy.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Build the Docker Image](#build-the-docker-image)
-- [Running the Web Server](#running-the-web-server)
-- [Testing the Web Server](#testing-the-web-server)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
@@ -29,6 +19,7 @@ Before you begin, make sure you have the following installed:
    npm i
    docker build  -t webserver .
    docker container ls
+   
 
 2. you can directly run using "docker pull image" command on cli also 
 
